@@ -10,13 +10,6 @@ setup(
   url='git@github.com:eguezgustavo/gustavo_installable.git',
   author='Gustavo Eguez',
   author_email='eguezgustavo@gmail.com',
-  packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
   license='LICENSE.txt',
-
-  
-  author='Raphael Schubert',
-  author_email='raphael.schubert@digitalbankscorp.com',
-  license='unlicense',
-  packages=['ptolemaios'],
-  zip_safe=False
+  packages=['gustavo'],
 )
